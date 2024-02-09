@@ -54,6 +54,9 @@
         "preset": "toolbar"
       },
       "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "excerpt": {
+      "type": "text"
     }
   }
 }
