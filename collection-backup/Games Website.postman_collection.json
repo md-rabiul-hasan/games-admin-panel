@@ -1,0 +1,348 @@
+{
+	"info": {
+		"_postman_id": "f667b0df-ebe9-4224-9fd3-5bbda3a3cce4",
+		"name": "Games Website",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20976276",
+		"_collection_link": "https://lively-capsule-397705.postman.co/workspace/Block-Chain-API~44de40fd-26bd-4e8b-8c5e-97bd640b85f9/collection/20976276-f667b0df-ebe9-4224-9fd3-5bbda3a3cce4?action=share&source=collection_link&creator=20976276"
+	},
+	"item": [
+		{
+			"name": "Slider",
+			"item": [
+				{
+					"name": "Slider List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:1337/api/sliders?populate=image",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1337",
+							"path": [
+								"api",
+								"sliders"
+							],
+							"query": [
+								{
+									"key": "populate",
+									"value": "image"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Slider Details",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:1337/api/sliders/1?populate=image",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1337",
+							"path": [
+								"api",
+								"sliders",
+								"1"
+							],
+							"query": [
+								{
+									"key": "populate",
+									"value": "image"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Game",
+			"item": [
+				{
+					"name": "Game List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:1337/api/games?populate=image&populate=category",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1337",
+							"path": [
+								"api",
+								"games"
+							],
+							"query": [
+								{
+									"key": "populate",
+									"value": "image"
+								},
+								{
+									"key": "populate",
+									"value": "category"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Game Details",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:1337/api/games/1?populate=image&populate=category",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1337",
+							"path": [
+								"api",
+								"games",
+								"1"
+							],
+							"query": [
+								{
+									"key": "populate",
+									"value": "image"
+								},
+								{
+									"key": "populate",
+									"value": "category"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Page",
+			"item": [
+				{
+					"name": "Page List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:1337/api/games?populate=image&populate=category",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1337",
+							"path": [
+								"api",
+								"games"
+							],
+							"query": [
+								{
+									"key": "populate",
+									"value": "image"
+								},
+								{
+									"key": "populate",
+									"value": "category"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Page Details",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:1337/api/games/1?populate=image&populate=category",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1337",
+							"path": [
+								"api",
+								"games",
+								"1"
+							],
+							"query": [
+								{
+									"key": "populate",
+									"value": "image"
+								},
+								{
+									"key": "populate",
+									"value": "category"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Category",
+			"item": [
+				{
+					"name": "Category List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:1337/api/categories?populate=game",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1337",
+							"path": [
+								"api",
+								"categories"
+							],
+							"query": [
+								{
+									"key": "populate",
+									"value": "game"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Category Details",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:1337/api/categories/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1337",
+							"path": [
+								"api",
+								"categories",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "About us Timeline",
+			"item": [
+				{
+					"name": "timeline list",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:1337/api/timelines",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1337",
+							"path": [
+								"api",
+								"timelines"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Setting",
+			"item": [
+				{
+					"name": "Site Settings",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:1337/api/settings",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1337",
+							"path": [
+								"api",
+								"settings"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Carrier",
+			"item": [
+				{
+					"name": "Career Opening List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:1337/api/careers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1337",
+							"path": [
+								"api",
+								"careers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Career Opening Details",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:1337/api/careers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1337",
+							"path": [
+								"api",
+								"careers"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
